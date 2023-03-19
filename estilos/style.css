@@ -19,23 +19,17 @@ body {
 }
 
 main {
-    position: relative;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-section#celular {
-    position: absolute;  
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+section#celular {    
+    
     width: 311px;
     height: 627px;
     background-image: url(../imagens/frame-iphone.png) ;
     background-repeat: no-repeat; 
-   
-
-
 
 }
 
