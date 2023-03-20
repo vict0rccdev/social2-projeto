@@ -13,14 +13,24 @@ body {
     
 }
 
+ html, body {
+    
+    height: 100vh;    
+    width: 100vw;
+}
+
+
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 section#celular {    
     
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     width: 311px;
     height: 627px;
     background-image: url(../imagens/frame-iphone.png) ;
@@ -36,3 +46,28 @@ section#celular {
     height: 471px;
   
 }
+
+#redes-sociais {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#redes-sociais img{    
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.664);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.5s, border 1s;
+     
+}
+
+
+
